@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rokkitt', serif;
+    font-weight: 700;
+}
+body{
+    background-color: hsl(210, 36%, 96%);
+}
+#form-section{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 130vh;
+}
+label, input{
+    font-weight: 700;
+    font-size: 26px;
+}
+form{
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 70px 80px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    width: 36%;
+    min-width: 550px;
+}
+.transfer-title h1{
+    margin-top: -60px;
+    margin-left: 40px;
+    padding: 2px 0;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    font-size: 35px;
+    font-family: 'Rokkitt', serif;
+    font-weight: 700;
+}
+.underline{
+    margin: 0 auto;
+    margin-top: -10px;
+    border-radius: 15px;
+    height: 8px;
+    width: 40%;
+    background-color: dodgerblue;
+}
+.form-content{
+    /* background-color: red; */
+    padding: 5px 0;
+}
+.form-content:nth-child(4){
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    letter-spacing: 0.15rem;
+    margin-top: 10px;
+    padding: 2px 25px;
+    font-size: 26px;
+}
+.form-control{
+    border: none;
+    border-bottom: 2px solid dodgerblue;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.des{
+    font-size: 20px;
+}
+.g-img{
+    position: absolute;
+    top: -60px;
+    left: 40px;
+    width: 125px;
+    height: 125px;
+}
+.errors{
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+    font-family: 'Rokkitt', serif;
+    letter-spacing: 0.1rem;
+}
+/* Media Query */
+@media screen and (max-width:600px) {
+    form{
+        width: 80%;
+        min-width: 350px;
+        padding: 20px 35px;
+    }
+    .g-img{
+        position: absolute;
+        top: -100px;
+        left: 10px;
+        width: 125px;
+        height: 125px;
+    }
+    .form-content{
+        padding: 5px 0;
+    }
+    .form-content input,label{
+        font-size: 20px;
+    }
+}

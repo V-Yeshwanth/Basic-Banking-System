@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rokkitt', serif;
+    font-weight: 700;
+}
+body{
+    background-color: hsl(210, 36%, 96%);
+}
+#form-section{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+label, input{
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 26px;
+}
+form{
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 40px 50px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    width: 36%;
+    min-width: 550px;
+}
+.form-content{
+    padding: 10px 0;
+}
+.form-content:nth-child(4){
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    letter-spacing: 0.15rem;
+    margin-top: 10px;
+    padding: 2px 25px;
+    font-size: 26px;
+}
+.form-control{
+    border: none;
+    border-bottom: 2px solid dodgerblue;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.des{
+    font-size: 20px;
+}
+.g-img{
+    position: absolute;
+    top: -60px;
+    left: 40px;
+    width: 125px;
+    height: 125px;
+}
+.green{
+    font-size: 45px;
+}
+.form-sections{
+        padding: 10px 0;
+    }
+    h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+    }
+    .form-sections > h1{
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.2rem;
+        font-family: 'Rokkitt', serif;
+    }   
+    .form-sections input{
+        margin: 10px 0;
+        width: 80%;
+        outline: none;
+        font-weight: 700;
+        font-family: 'Rokkitt', serif;
+        border-bottom-right-radius: 10px;
+        border: none;
+        border-bottom: 2px solid dodgerblue;
+        font-size: 24px;
+        padding: 5px 10px;
+    }
+    .transfer-title h1{
+        padding: 5px 0;
+        text-transform: capitalize;
+        letter-spacing: 0.2rem;
+        font-size: 45px;
+        font-family: 'Rokkitt', serif;
+        font-weight: 700;
+    }
+    .underline{
+        margin: 0 auto;
+        margin-top: -20px;
+        margin-bottom: 60px;
+        border-radius: 15px;
+        height: 10px;
+        width: 40%;
+        background-color: dodgerblue;
+    }
+    .error-text{
+        font-size: 16px;
+        font-weight: 700;
+        color: red;
+        font-family: 'Rokkitt', serif;
+        letter-spacing: 0.1rem;
+    }
+@media screen and (max-width:600px) {
+    form{
+        width: 80%;
+        min-width: 350px;
+        padding: 20px 35px;
+    }
+    .form-content{
+        padding: 5px 0;
+    }
+    .form-content input,label{
+        font-size: 20px;
+    }
+}
